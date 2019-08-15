@@ -1,0 +1,29 @@
+apply plugin: 'java'
+//apply plugin: 'application'
+apply plugin: 'war'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'org.springframework:spring-webmvc:4.2.4.RELEASE'
+    providedCompile 'javax:javaee-web-api:7.0'
+}
+
+jar {
+
+    baseName = 'hello-world'
+    version = '0.1.0'
+}
+
+war {
+    baseName = 'helloworld'
+    version = '0.1.0'
+}
+
+//mainClassName = 'com.gap.poc.hello.Hello'
