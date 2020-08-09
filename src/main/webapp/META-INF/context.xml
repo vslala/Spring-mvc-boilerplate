@@ -1,0 +1,6 @@
+<Context>
+    <Resource name="HelloJndi" auth="Container"
+              type="com.bma.poc.jndi.MyJNDIResource"
+              factory="com.bma.poc.jndi.MyJNDIResourceFactory"
+              personName="Varun Shrivastava" message="Hello From JNDI Object!!!" />
+</Context>

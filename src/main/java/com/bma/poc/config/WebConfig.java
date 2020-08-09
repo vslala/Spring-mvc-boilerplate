@@ -1,4 +1,4 @@
-package com.gap.poc.config;
+package com.bma.poc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
